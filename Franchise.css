@@ -1,0 +1,242 @@
+* {
+  margin: 0; 
+}
+
+.fixed {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.appbar {
+  zoom: .8;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 140px;
+  background: rgba(0,0,0,.12);
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin: 0 100px;
+  width: 150px;
+  height: 90px;
+  background: url('./logo.svg');
+  background-repeat: no-repeat;
+  background-size: 150px 90px;
+  cursor: pointer;
+}
+
+.nav {
+  margin-left: auto;
+  margin-right: 100px;
+  transition: all .5s;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 20px;
+  list-style: none;
+  list-style-position: inside;
+}
+
+.link {
+  transition: all .5s;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgba(255,255,255,.781);
+  font-weight: 300;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.applynow {
+  background: #ff5672;
+  padding: 10px 20px;
+  width: 195px;
+  color: aliceblue;
+  font-size: 19px;
+  font-weight: 700;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+} 
+
+.img1>h3{
+  color: rgb(247, 244, 244);
+  font-family:cursive;
+  padding-top: 40vh;
+  font-size: 3em;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: all 0.4s;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.img1>h5{
+  color: rgb(247, 244, 244);
+  font-family:cursive;
+  font-size: 1.2em;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: all 0.4s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.img1 {
+  width: 100%;
+  height: 100vh;
+  background: url("./images/video-bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.two{
+  text-align: center;
+}
+.t{
+  padding-top: 50px;
+  font-size:2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hr {
+  color: rgb(76, 75, 75);
+  font-size: 22px;
+  font-weight: 700;
+  padding-left: 8px;
+  letter-spacing:.7px;
+  padding-bottom: 60px;
+}
+.line{
+  background: linear-gradient(90deg, #9b5ba8 0%, #bb60f8 100%);
+  height: 3px;
+  width: 85%;
+  margin: 0px auto 20px ;
+}
+
+.th{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.three {
+  display: inline-block;
+  justify-content: space-around;
+  padding-left: 170px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: large;
+  text-align: center;
+}
+
+.four {
+  display: inline-block;
+  justify-content: space-around;
+  padding-left:180px;
+  padding-bottom: 60px;
+  font-size: large;
+  display: inline-block;
+  text-align: center;
+}
+.fp{
+  font-size:medium;
+}
+
+.tf{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.f{
+  padding-top: 15px;
+  text-align: center;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.im{
+  padding-top: 20px;
+  padding-left: 150px;
+}
+.btn2{
+  padding-left: 650px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.applynow2{
+  background: #ff5672;
+  padding: 10px 20px;
+  width: 195px;
+  color: aliceblue;
+  font-size: 19px;
+  font-weight: 700;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.footer {
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.fd {
+  display: grid;
+  margin-top: 60px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  column-gap: 50px;
+}
+.fd img {
+  margin-right: 15px;
+  height: 37px;
+  width: 37px;
+}
+.fd div {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-top: 0 !important;
+  font-weight: 300 !important;
+  font-size: 15px !important;
+  color: #424242;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #c77bf4 0%, #ff5672 100%);
+  box-shadow: -5px -5px 19px rgb(0 0 0 / 23%);
+  height: 50px;
+  width: 100%;
+  color: #fff;
+  font-size: 15px;
+}

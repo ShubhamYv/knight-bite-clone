@@ -1,0 +1,132 @@
+* {
+  font-family: nunito;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.appbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 140px;
+  background: rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin: 0 100px;
+  width: 150px;
+  height: 90px;
+  background: url("./images/logo.svg");
+  background-repeat: no-repeat;
+  background-size: 150px 90px;
+  cursor: pointer;
+}
+
+.nav {
+  margin-left: auto;
+  margin-right: 100px;
+  transition: all 0.5s;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 20px;
+  list-style: none;
+  list-style-position: inside;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.781);
+  font-weight: 300;
+}
+
+
+.content {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  background: url("./images/menu_banner.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.menu {
+  display: grid;
+  margin-top: 100px;
+  padding: 0 200px;
+  row-gap: 60px;
+  column-gap: 50px;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.menu-item h1 {
+  color: #fff;
+  font-size: 40px;
+  font-family: nicotineregular;
+  margin: 0 0 15px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.d-hotline.h-btn {
+  align-items: center;
+  border-radius: 34px 8px 34px 34px;
+  bottom: 6px;
+  box-shadow: 0 5px 4px 0 rgb(0 0 0 / 26%);
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 5px;
+  z-index: 9995;
+  height: 60px;
+  width: 60px;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #c77bf4 0%, #ff5672 100%);
+  box-shadow: -5px -5px 19px rgb(0 0 0 / 23%);
+  height: 50px;
+  width: 100%;
+  color: #fff;
+  font-size: 15px;
+}
